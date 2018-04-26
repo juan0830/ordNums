@@ -20,7 +20,7 @@ def encontrar_interseccion(m1,m2):
                 y = 0
                 while y < len(temp[k]):
                     if m2[i][j] == temp[k][y] and m2[i][j] not in interseccion: 
-                        interseccion.append(m2[i][k])
+                        interseccion.append(m2[i][j])
                     y = y + 1
                 k = k + 1
             j = j + 1

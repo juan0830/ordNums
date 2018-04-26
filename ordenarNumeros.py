@@ -33,7 +33,7 @@ def crearLista(nums):
     while i < nums:
         numero = int(input("Ingrese numero: "))
         lista.append(numero)
-        i = i
+        i = i + 1
     return lista
 
 def main(nums):
